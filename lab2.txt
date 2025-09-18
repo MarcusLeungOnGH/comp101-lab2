@@ -1,0 +1,6 @@
+1. Bob clicks on the link, prompting his internet browser application to 'enter' the link as a URL. 
+2. Bob's web browser uses his device as a client device to transmit an HTTPS request to the github server computer.
+3. The URL containing the github domain name is translated into the IP address of the github server device as the destination of the request.
+4. The github server processes the request made by Bob's client, retrieves the data that represents the specific github repository, and sends the repository's website page code back to his device.
+(NB: During steps 2 to 4, the data representing the request and the page code is encrypted in the process of communication, due to the HTTPS protocol requiring a layer of security for data transmission)
+5. Bob's browser interprets the code received from the server and then renders the code into a webpage that shows the github repository.
